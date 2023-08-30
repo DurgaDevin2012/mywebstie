@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding:0;
+  left:0;
+  right:0;
+  box-sizing:border-box;
+}
+
+body{font-family:"poppins", sans-serif;
+background-color:#ffffff;
+  color: #101010;
+}
+
+@media screen and (min-width:320px)
+{
+	
+	.navbar{display:none;}
+	
+	.topmenu{display:flex;
+	justify-content:space-between;}
+	
+	
+	.home-section{ color: #fefefe;
+  background-color: #000000;
+  background-color: #f89cab;
+  border-radius: 0px 0px 15px 15px;
+  width:90%;
+  margin:auto;
+}
+
+.home-container{width:80%;
+margin:auto;
+padding-top:50px}
+
+.home-row{display:block;
+padding:10px;}
+
+.home-col1 h1{ font-weight: bold;
+  font-size: 3.5rem;
+margin-bottom: 10px;
+top:100;
+padding:150px 0px 0px 0px;
+width:90%;}
+
+.home-col1 p{font-size:20px;
+text-align:jusify;
+padding:10px 0px 0px 0px;}
+			
+
+.home-col1 a{ display: block;
+  padding: 10px 30px;
+  background-color: #db4566;
+  color: #ffffff;
+  border: 1px solid #db4566;
+border-radius: 5px;
+text-transform: uppercase;
+text-decoration:none;
+}
+
+.home-col1 a:hover{ background-color: transparent;
+  color: #db4566;
+}
+
+
+}
+
+
+@media screen and (min-width:768px)
+{
+
+.navbar{display:none;}
+	
+	.topmenu{display:flex;
+	justify-content:space-between;}
+	
+}
+
+
+@media screen and (min-width:1024px)
+{
+
+	
+	header{	
+	width:90%;
+	margin:auto;
+}
+ /*topmenu*/
+ .topmenu{
+	 padding:10px;
+	 background-color:white;
+	 color:black;
+	 text-align:center;
+	 font-size:20px;
+ }
+ 
+	.fa{display:none;}	
+	
+	nav{
+	 width:75%;
+ }
+ 
+ ul{
+	display:flex;
+	width:80%;
+	justify-content:space-evenly;
+	text-decoration:none;
+	}
+
+	a{ text-decoration:none;
+	color:black;}
+	
+	
+ .navbar{
+	justify-content:space-around;
+	display:flex;
+	font-size:15px;
+	width:100%;
+	text-align:center;
+	background-color:#f9ece6;
+	padding:15px;
+	border:none;
+	border-radius:20px 20px 0px 0px;
+ }
+	
+	.home-section{ color: #fefefe;
+  background-color: #000000;
+  background-color: #f89cab;
+  border-radius: 0px 0px 15px 15px;
+  width:90%;
+  margin:auto;
+}
+
+.home-container{width:80%;
+margin:auto;
+padding-top:50px;}
+
+.home-row{display:flex;
+padding:10px;}
+
+.home-col1 h1{ font-weight: bold;
+  font-size: 3.5rem;
+margin-bottom: 10px;
+top:100;
+padding:150px 0px 0px 0px;
+width:90%;}
+
+.home-col1 p{font-size:20px;
+text-align:jusify;
+padding:10px 0px 0px 0px;}
+			
+
+.home-col1 a{ display: flex;
+  padding: 10px 30px;
+  background-color: #db4566;
+  color: #ffffff;
+  border: 1px solid #db4566;
+border-radius: 5px;
+text-transform: uppercase;
+}
+
+.home-col1 a:hover{ background-color: transparent;
+  color: #db4566;
+}
+	
+	
+	
+	
+}
